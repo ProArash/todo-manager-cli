@@ -26,6 +26,7 @@ func main() {
 	if err != nil {
 		panic(err)
 	}
+
 	scanner := bufio.NewScanner(os.Stdin)
 	fmt.Printf("%s\n", "=> TODO manager CLI by @ProArash")
 	for range 40 {
